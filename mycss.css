@@ -1,0 +1,350 @@
+*{
+	margin: 0;
+	
+}
+body{
+	background-color: #f8f8f8;
+}
+.head{
+	position: fixed;
+	z-index: 10;
+	
+
+}
+
+.logo{
+	margin: 0;
+	text-align: center;
+	padding-top: 46px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 32px;
+	color: white;
+	transition: 0.4s ease;
+	
+}
+
+
+
+.men {
+	padding-right: 42px;
+	display: inline-block;
+    list-style-type: none; 
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+ 	 
+
+    
+   }
+.menu {
+	padding-top: 50px;
+	margin: 0;
+	text-align: center;
+    margin-left: 0; 
+    padding-left: 0; 
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+
+} 
+.men:hover{
+	color: #5dcbc7;
+	transition: 0.2s ease all;
+	
+}   
+
+/*--------Banner----------------*/
+
+.banner{
+	background-image: url(image/background-1.png);
+	transform: scale(1.2);
+	transition: 10s ease all;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:  884px;
+	width: 100%;
+
+
+	
+
+
+}
+.welcome{
+	text-align: center;
+	padding-top: 400px;
+	font-size: 70px;
+	color: white;
+	font-family: 'Nixie One', cursive;	
+	transition: 1s ease all;
+	right: 2000px;
+  	transition: right 0.5s cubic-bezier(0.0, 0.5, 0.5, 1.0);
+  	position: relative;
+  	z-index: 1;
+
+
+}
+/*----------Furniture catalog----------------*/
+
+.catalog{
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Nixie One', cursive;
+	padding-top: 40px;
+	opacity: 0.5;
+    transition: 2s ease ;
+    top: 100px;
+  	transition: top 0.5s cubic-bezier(0.5, 0.5, 0.5, 1.0);
+
+
+}
+.paragraf{
+	text-align: center;
+	font-size: 17px;
+	color:#777a7a;
+	font-family: 'Exo', sans-serif;
+	transition: 2s ease all;
+	right: 100px;
+	transition: right 0.5s cubic-bezier(0.5, 0.5, 0.5, 1.0);
+	position: relative;
+
+}
+
+.cat{
+	text-align: center;
+}
+.category{
+	display: inline-block;
+	font-family: 'Exo', sans-serif;
+	margin: 0 auto;
+	background-color: white;
+	background-position:center;
+	margin-left: 0; 
+    padding-left: 0; 
+    border-radius: 30px;
+    margin-top: 40px;
+
+
+     
+
+
+}
+.category li{
+	display: inline-block;
+	margin-left: 0; 
+    padding-left: 0;
+    list-style-type: none; 
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 30px;
+    box-sizing: content-box;
+    border-radius: 30px;
+    cursor: pointer;  
+    transition: 0.5s ease all;
+
+    
+}
+.category li:hover{
+	background-color: #8bb5b5;
+	border-radius: 30px;
+	box-sizing: border-box ;
+	color: white;
+
+}
+
+/*-------------------------*/
+.boots1{
+	display: block;
+	margin: 0 auto;
+	padding-top: 0%;
+	width: 400px;
+	transition:  1s ease;
+	position: relative;
+
+
+	
+}
+.boots1:hover{
+	transform: scale(1.1);
+	transition: 2s ease;
+
+}
+
+.mpa{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 7px;
+	text-align: center;
+	border-radius: 27px;
+	overflow: hidden;
+	max-width: 400px;
+	
+	
+}
+
+
+.bn{
+	display: flex;
+	justify-content: center;
+	box-sizing: content-box;
+	padding-top: 50px;
+		
+
+}
+
+a:active, 
+a:hover,  
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+
+/*------Knopki----------*/
+
+#Product{
+
+	transform: scale(0.5);
+	opacity: 0;
+
+}
+/*----------Dobavaka--------------*/
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; 
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  opacity: 0.7;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/*-------improviz----------*/
+.img2,
+.img1{
+	height: 700px;	
+	width: auto;
+	
+}
+
+.slid{
+	padding-top: 100px;
+	padding-left: 30px;
+}
+/*==============slider------------------*/
+    .slider {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slider__wrapper {
+      display: flex;
+      transition: transform 0.6s ease;
+    }
+
+    .slider__item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    @media (min-width: 980px) {
+      .slider__item {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+
+    .slider__control {
+      position: absolute;
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      color: #fff;
+      text-align: center;
+      opacity: 0.5;
+      height: 50px;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, .5);
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: 0;
+      opacity: .9;
+    }
+
+    .slider__control_left {
+      left: 0;
+    }
+
+    .slider__control_right {
+      right: 0;
+    }
+
+    .slider__control::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    .slider__control_left::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider__control_right::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .slider__item>div {
+      line-height: 250px;
+      font-size: 100px;
+      text-align: center;
+    }
+
+.slid{
+	transform: scale(0.5);
+	transition: 2s ease all;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 765px) { */
